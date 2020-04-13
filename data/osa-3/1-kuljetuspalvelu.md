@@ -27,7 +27,7 @@ Luotettavan kuljetuspalvelun keskeinen tehtävä on siis piilottaa verkkokerroks
 * sovelluskerros edellyttää mielivaltaisen pitkiä sanomia, mutta verkkokerros voi rajoittaa segmentin kokoa
 * verkkokerros voi lisäksi viivyttää segmenttejä satunnaisen pitkän ajan
 
-Ennen kuin käydään yksityiskohtaisemmin läpi kuljetuskerroksen TCP:n ja UDP:n toimintaa, niin tarkastellaan asioita ensin hiukan teoreettisemmin. Edellytämme protokollilta ja niiden toteutuksilta, että ne toimivat virheettömästi ja tekevät sen mitä lupaavat. Tämän arviointi suunnitteluvaiheessa perustuu protokollan mallintamiseen ja tämän mallin toiminnallisuuden ja oikeellisuuden arviointiin. Vaikka emme tällä kurssilla opettelemaan verifioimaan ja validoimaan protokollia ja niiden oikeellisuutta, niin yleiskuva mallinnuksesta on kuitenkin tarpeen. Mallinnuksesa kuten yleensä tiejenkäsittelyssä abstrahoimme asioita ja tarkastelemme vain sillä hetkellä kiinnostavia piirteitä.
+Ennen kuin käydään yksityiskohtaisemmin läpi kuljetuskerroksen TCP:n ja UDP:n toimintaa, niin tarkastellaan asioita ensin hiukan teoreettisemmin. Edellytämme protokollilta ja niiden toteutuksilta, että ne toimivat virheettömästi ja tekevät sen mitä lupaavat. Tämän arviointi suunnitteluvaiheessa perustuu protokollan mallintamiseen ja tämän mallin toiminnallisuuden ja oikeellisuuden arviointiin. Vaikka emme tällä kurssilla opettelemaan verifioimaan ja validoimaan protokollia ja niiden oikeellisuutta, niin yleiskuva mallinnuksesta on kuitenkin tarpeen. Mallinnuksesa kuten yleensä tietojenkäsittelyssä abstrahoimme asioita ja tarkastelemme vain sillä hetkellä kiinnostavia piirteitä.
 
 
 ## Mallinnuksesta
